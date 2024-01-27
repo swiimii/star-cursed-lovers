@@ -76,6 +76,7 @@ public class DateDialogueManager : MonoBehaviour
         yield return dialogueBox.DisplayMessage(message);
         yield return new WaitForSeconds(1.5f);
         yield return dialogueBox.DisplayMessage(response);
+        yield return new WaitForSeconds(.5f);
     }
 
     public void Test_MessageAndResponse()
