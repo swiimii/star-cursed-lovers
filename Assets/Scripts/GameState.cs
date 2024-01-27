@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameState : MonoBehaviour
 {
+    private int daysPassed = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,5 +27,24 @@ public class GameState : MonoBehaviour
         }
 
         DontDestroyOnLoad(this);
+    }
+
+    /**
+     * This function should be called when a date is skipped, or a level is completed/failed.
+     * When each date is either skipped or completed, the final screen should be shown and 
+     * the player's final choice is provided; which ending is wanted.
+     * 
+     * After an ending is chosen, the player should be led to the main menu, which will delete
+     * this gameObject and instantiate a new GameState instance (per Start() function)
+     */
+    private void IncrementDaysPassed()
+    {
+        // increment daysPassed
+
+        int maxDays = 7;
+        if( daysPassed >= maxDays )
+        {
+            // transition to final screen
+        }
     }
 }
