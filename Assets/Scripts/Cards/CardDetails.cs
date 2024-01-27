@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "ScriptableObjects/CardDetails", order = 1)]
 public class CardDetails : ScriptableObject
 {
-    public string dialogueText;
+    public Line dialogueText;
     public List<GameDefs.Type> cardTypes;
 
 

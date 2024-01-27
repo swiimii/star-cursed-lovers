@@ -18,7 +18,7 @@ public class DateDialogueManager : MonoBehaviour
         neutralLines = new List<Line>(dateDetails.neutralLines);
     }
 
-    public void PlayerSendMessage(Line message, List<GameDefs.Type> dialogueTypes)
+    public IEnumerator PlayerSendMessage(Line message, List<GameDefs.Type> dialogueTypes)
     {
         bool isGood = false, isBad = true;
 
@@ -61,14 +61,14 @@ public class DateDialogueManager : MonoBehaviour
             dateResponse = PopResponseLine(ref negativeLines );
         }
 
-        MessageAndResponse(message, dateResponse);
+        yield return MessageAndResponse(message, dateResponse);
     }
 
-    private void MessageAndResponse(Line message, Line response )
+    private IEnumerator MessageAndResponse(Line message, Line response )
     {
         StopAllCoroutines();
         dialogueBox.StopAllCoroutines();
-        StartCoroutine(MessageAndResponseIE( message, response ));
+        yield return MessageAndResponseIE( message, response );
     }
 
     private IEnumerator MessageAndResponseIE(Line message, Line response)

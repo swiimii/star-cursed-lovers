@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951d2a4d1594a3349b5aeecb707f754e, type: 3}
+  m_Name: RizzlerCard7
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 11400000, guid: 733acbc40f76e824aa3d3b0bac5f2e4a, type: 2}
+  cardTypes: 0400000000000000
