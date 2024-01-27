@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: TMPSpikePos1
   m_EditorClassIdentifier: 
   text: Wow! Very nice!
+  color: {r: 0.6114538, g: 0, b: 0.87169814, a: 1}

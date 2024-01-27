@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: TMPSpikeNeg1
   m_EditorClassIdentifier: 
   text: I'm not sure how I feel about that...
+  color: {r: 0.6114538, g: 0, b: 0.87169814, a: 1}

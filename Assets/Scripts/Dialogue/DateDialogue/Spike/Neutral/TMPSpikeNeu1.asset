@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: TMPSpikeNeu1
   m_EditorClassIdentifier: 
   text: Okay, that's fine by me!
+  color: {r: 0.6114538, g: 0, b: 0.87169814, a: 1}
