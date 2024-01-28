@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: WizardLine 4
   m_EditorClassIdentifier: 
-  text: Papa
+  text: If we invaded a home together, I would be sure to steal their air fryer for
+    you; I know that you have been wanting to try one.
   color: {r: 0.24361731, g: 0.13040228, b: 0.6226415, a: 1}
+  voice: {fileID: 0}
