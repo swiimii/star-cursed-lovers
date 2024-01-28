@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'I may be a toad now, but it appears you always have been. '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
+  voice: {fileID: 8300000, guid: 7f6ef654a9a52c94694ad468dfcd2cff, type: 3}

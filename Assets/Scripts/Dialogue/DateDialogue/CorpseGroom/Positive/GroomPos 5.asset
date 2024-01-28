@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'Incredible. If I was a left tibia, you would be the right tibia from the
     same body, a perfect match. '
   color: {r: 0.44227532, g: 0.54901963, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: c2742ac82f1f31a489910d71e9b96891, type: 3}

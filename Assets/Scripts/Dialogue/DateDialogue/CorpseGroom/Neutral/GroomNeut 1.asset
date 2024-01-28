@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'That makes me wonder whether we are supposed to be together forever; I''m
     unconvinced as yet. '
   color: {r: 0.44227532, g: 0.54901963, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: 11a0ba4bd94889a458700f0150ac3be6, type: 3}

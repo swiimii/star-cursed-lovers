@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'It''s difficult to see what our life might look like, even with my impeccable
     eyesight. '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
+  voice: {fileID: 8300000, guid: 1dd3ee193be4b7241af7fc6a56c006d6, type: 3}

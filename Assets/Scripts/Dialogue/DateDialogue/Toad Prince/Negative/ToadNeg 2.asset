@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'I need someone serious to rule this land, not a common pauper filled with
     groundling''s laughter. '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
+  voice: {fileID: 8300000, guid: 6255e748f522c5d4c824dc016b3617ac, type: 3}

@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'Alas, you are not fit to rule beside me. I bid thee adieu. '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
+  voice: {fileID: 8300000, guid: 55852ef0683d6a248912cf7feff7473e, type: 3}

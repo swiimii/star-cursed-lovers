@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'Isolation in this castle would be much more enjoyable with you by my side. '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
+  voice: {fileID: 8300000, guid: b74a1f82051579d45aa377f98dc2084d, type: 3}

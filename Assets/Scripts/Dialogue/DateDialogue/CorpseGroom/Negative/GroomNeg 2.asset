@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'Your words are cheapened by their lack of sincerity. '
   color: {r: 0.44227532, g: 0.54901963, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: df8c1f8bbbf2b654abda2ee0925d8b23, type: 3}
