@@ -21,7 +21,7 @@ public class DateDialogueManager : MonoBehaviour
         negativeLines = new List<Line>(dateDetails.negativeLines);
         neutralLines = new List<Line>(dateDetails.neutralLines);
         currentdialogue = dialogueMeter;
-        loveBar.SetMaxHealth(dialogueMeter);
+        loveBar.SetHealth(dialogueMeter);
         foreach ( var line in dateDetails.introLines )
         {
             StartCoroutine(DisplayMessageIE(line));
