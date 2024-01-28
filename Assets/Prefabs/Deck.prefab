@@ -99,3 +99,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3ca9f29cdadd715488836c8b0cb65284, type: 2}
   drawPile: []
   cardPrefab: {fileID: 784240861624841092, guid: 0a131726a8c42b442b089b32e51d17b0, type: 3}
+  cardArt:
+  - {fileID: 21300000, guid: 0d07630e4f8f4674eb30e3b540bf494d, type: 3}
+  - {fileID: 21300000, guid: 2982a19e5408d6a4f92c7e715d91e5e4, type: 3}
+  - {fileID: 21300000, guid: 955d55864b5d9db468115631e3c24621, type: 3}

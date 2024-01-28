@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Deck : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Deck : MonoBehaviour
     private List<CardDetails> discardPile;
 
     public GameObject cardPrefab;
+    public Sprite[] cardArt;
+
 
     void Awake()
     {
@@ -28,6 +31,7 @@ public class Deck : MonoBehaviour
 
             var newCard = Instantiate(cardPrefab);
             newCard.GetComponent<Card>().details = drawPile[0];
+            newCard.GetComponent<Image>().sprite = GetDeckSprite();
             drawPile.RemoveAt(0);
             
             return newCard;
@@ -35,6 +39,22 @@ public class Deck : MonoBehaviour
         else
         {
             return null;
+        }
+    }
+
+    public Sprite GetDeckSprite()
+    {
+        switch( GameState.singleton.deckMode )
+        {
+            case GameDefs.Decks.Rizzler:
+                return cardArt[0];
+            case GameDefs.Decks.Wizard:
+                return cardArt[1];
+            case GameDefs.Decks.Rebel:
+                return cardArt[2];
+            default:
+                Debug.Log("Unexpected deck mode");
+                return cardArt[0];
         }
     }
 }

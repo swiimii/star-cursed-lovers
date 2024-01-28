@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class MenuHelper : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void GoToLevelSelect()
     {
-        
+        GameState.singleton.TransitionToLevelSelect();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void GoToMainMenu()
     {
-        
+        GameState.singleton.TransitionToHome();
+    }
+
+    public void GoToLevel(string level )
+    {
+        GameState.singleton.TransitionToScene(level);
     }
 }
