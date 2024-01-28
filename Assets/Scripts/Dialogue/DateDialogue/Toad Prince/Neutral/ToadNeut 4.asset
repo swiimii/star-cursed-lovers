@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
-  m_Name: WitchNegative
+  m_Name: ToadNeut 4
   m_EditorClassIdentifier: 
-  text: I'm not sure how I feel about that...
-  color: {r: 0.6377357, g: 0, b: 0.4821416, a: 1}
+  text: 'You are as confusing as my castle''s underground passages, and that is saying
+    something. '
+  color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}

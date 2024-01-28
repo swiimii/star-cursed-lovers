@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: ToadBad
   m_EditorClassIdentifier: 
-  text: That wasn't very fun...
+  text: 'Alas, you are not fit to rule beside me. I bid thee adieu. '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}

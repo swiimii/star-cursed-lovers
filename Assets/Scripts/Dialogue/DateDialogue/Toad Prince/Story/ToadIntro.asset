@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: ToadIntro
   m_EditorClassIdentifier: 
-  text: Hi! I'm the toad prince.
+  text: 'Ah yes, hello there. I am Prince Theodoro Leopold James Henry Dashington
+    Longfellow Worthington, the third. But beautiful people like you are permitted
+    to refer to me by my nickname: Tod. Prince Tod, that is. I did not used to be
+    this unseemly. Once upon a time, I was a handsome prince, fighting dragons and
+    rescuing distressed tower-dwellers.  '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
