@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: KatPos 4
   m_EditorClassIdentifier: 
-  text: Wow! Very nice!
+  text: 'You know what? I like you, you''re, like, pretty chill. '
   color: {r: 0.5471698, g: 0.15477543, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: 0373e01191ca9ae41bf6a191489b7032, type: 3}

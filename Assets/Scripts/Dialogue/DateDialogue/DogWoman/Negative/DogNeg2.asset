@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogNeg2
   m_EditorClassIdentifier: 
   text: Ew, you're no fun at all.
-  color: {r: 0, g: 0, b: 0, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: 2a01eb9944d18114282c56e3e7542924, type: 3}

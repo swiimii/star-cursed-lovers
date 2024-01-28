@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogNeg4
   m_EditorClassIdentifier: 
   text: That sounds bad.
-  color: {r: 0, g: 0, b: 0, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: 73b11d6ddc362c84f894851da6fe5dff, type: 3}

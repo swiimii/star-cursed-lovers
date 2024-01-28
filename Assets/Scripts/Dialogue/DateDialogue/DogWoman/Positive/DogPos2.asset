@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogPos2
   m_EditorClassIdentifier: 
   text: That's amazing! You're amazing! What a DAY!
-  color: {r: 0, g: 0, b: 0, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: a36eba3a21637d740ae58337e961ccf2, type: 3}

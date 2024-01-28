@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogBad
   m_EditorClassIdentifier: 
   text: Hmmm I don't think this is going to work. SQUIRREL! Gotta go.
-  color: {r: 0, g: 0.5622744, b: 0.6754716, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: 4a85cf1852393be4bbf9b2ae9381841a, type: 3}

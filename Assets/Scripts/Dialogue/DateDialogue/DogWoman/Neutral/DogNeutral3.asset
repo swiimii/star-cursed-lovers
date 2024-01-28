@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogNeutral3
   m_EditorClassIdentifier: 
   text: I don't know, it's whatever.
-  color: {r: 0, g: 0, b: 0, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: 63a4e6062e3e4e64b81268cf5620ff38, type: 3}

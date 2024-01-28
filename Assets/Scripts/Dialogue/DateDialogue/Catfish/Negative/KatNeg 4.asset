@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'What are you fishing for, like, a compliment? No thanks. '
   color: {r: 0.5471698, g: 0.15477543, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: 11f446e6a25a9e346b02a2bb9c8cccfc, type: 3}

@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: KatPos 5
   m_EditorClassIdentifier: 
-  text: Wow! Very nice!
+  text: 'That sounds really great. '
   color: {r: 0.5471698, g: 0.15477543, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: 82807e2507c040645a5daf526214159b, type: 3}

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogNeg5
   m_EditorClassIdentifier: 
   text: I think you're in the doghouse now.
-  color: {r: 0, g: 0, b: 0, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: e62ffff493b8ef747a599c0e9adedd32, type: 3}
