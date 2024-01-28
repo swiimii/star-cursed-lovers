@@ -10,9 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
-  m_Name: KatIntro
+  m_Name: KatNeut 3
   m_EditorClassIdentifier: 
-  text: 'Hey there, I''m Kat. I know, I know, it''s an old picture; the chick who
-    cursed me had a real sense of irony. But what can I say, I''ve got good taste
-    and a great personality. Let''s see if you can swim with the cool cats. '
+  text: Okay, that's fine by me!
   color: {r: 0.5471698, g: 0.15477543, b: 0, a: 1}
