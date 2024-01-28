@@ -20,7 +20,7 @@ public class DateDialogueManager : MonoBehaviour
 
     public IEnumerator PlayerSendMessage(Line message, List<GameDefs.Type> dialogueTypes)
     {
-        bool isGood = false, isBad = true;
+        bool isGood = false, isBad = false;
 
         foreach ( var aspect in dialogueTypes )
         {
@@ -28,16 +28,16 @@ public class DateDialogueManager : MonoBehaviour
             {
                 // bad affect
                 Debug.Log("Bad line...");
-                isGood = true;
-                dialogueMeter++;
+                isBad = true;
+                dialogueMeter--;
             }
             
             if( dateDetails.positiveTypes.Contains(aspect) )
             {
                 // good affect
                 Debug.Log("Good Line!");
-                isBad = true;
-                dialogueMeter--;
+                isGood = true;
+                dialogueMeter++;
             }
 
             // Reveal Trait If Necessary!
