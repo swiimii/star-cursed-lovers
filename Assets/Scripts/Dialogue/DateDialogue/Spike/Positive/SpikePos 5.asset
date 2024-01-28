@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'That sounds very nice, I appreciate that. '
   color: {r: 0.6117647, g: 0, b: 0.87058824, a: 1}
+  voice: {fileID: 8300000, guid: 9a5c0295284844f4c9b02282cdae3c1b, type: 3}

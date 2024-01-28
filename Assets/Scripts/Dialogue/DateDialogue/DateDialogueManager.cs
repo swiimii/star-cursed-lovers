@@ -97,16 +97,25 @@ public class DateDialogueManager : MonoBehaviour
 
     private IEnumerator MessageAndResponseIE(Line message, Line response, int reactionValue )
     {
+        GetComponent<AudioSource>().Stop();
         yield return dialogueBox.DisplayMessage(message);
         yield return new WaitForSeconds(1.5f);
         
         FindObjectOfType<DateSprite>().DoReaction(reactionValue);
+        if (response.voice)
+        {
+            GetComponent<AudioSource>().PlayOneShot(response.voice);
+        }
         yield return dialogueBox.DisplayMessage(response);
         yield return new WaitForSeconds(.5f);
     }
 
     private IEnumerator DisplayMessageIE(Line message )
     {
+        if( message.voice )
+        {
+            GetComponent<AudioSource>().PlayOneShot(message.voice);
+        }
         yield return dialogueBox.DisplayMessage(message);
         yield return new WaitForSeconds(1.5f);
     }

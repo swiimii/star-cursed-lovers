@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'I''ll be honest, I''m thinking about leaving. I''ll point the way out for
     you. '
   color: {r: 0.6117647, g: 0, b: 0.87058824, a: 1}
+  voice: {fileID: 8300000, guid: 1ce43fd4540abf341aacea555ac514ef, type: 3}
