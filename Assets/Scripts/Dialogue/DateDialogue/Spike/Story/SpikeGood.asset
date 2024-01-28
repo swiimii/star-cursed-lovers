@@ -16,3 +16,4 @@ MonoBehaviour:
     balloon, bouncy house, and inflatable pool toy to defend your honor. May we never
     be parted from this day on. '
   color: {r: 0.6117647, g: 0, b: 0.87058824, a: 1}
+  voice: {fileID: 8300000, guid: 34fda7a2e8a36514a9b31f865c8b7f1b, type: 3}

@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'I don''t like where this is going. '
   color: {r: 0.6117647, g: 0, b: 0.87058824, a: 1}
+  voice: {fileID: 8300000, guid: 8de0c19c242566342bea01afca80250a, type: 3}

@@ -7,7 +7,7 @@ public class DateSprite : MonoBehaviour
 {
     public Sprite positive, negative, neutral;
 
-    public const float REACTION_DURATION = 1.5f;
+    public const float REACTION_DURATION = 3f;
 
     public void DoReaction(int reactionValue )
     {

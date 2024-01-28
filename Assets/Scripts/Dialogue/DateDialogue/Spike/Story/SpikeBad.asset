@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'My dear, you are as bitter and cold as the coffee we drink. I hope you can
     find someone to warm your heart and break your curse; tis not I. Fairwell. '
   color: {r: 0.6117647, g: 0, b: 0.87058824, a: 1}
+  voice: {fileID: 8300000, guid: 43a428ea7cd958543bf34b02e349a014, type: 3}

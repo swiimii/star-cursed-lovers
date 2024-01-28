@@ -18,3 +18,4 @@ MonoBehaviour:
     keeping. That''s why I''m here, to find love and break my curse - and hopefully
     to break your curse too.  '
   color: {r: 0.6117647, g: 0, b: 0.87058824, a: 1}
+  voice: {fileID: 8300000, guid: a2d21b85ea1fed942bbdeb4fae5f1c68, type: 3}

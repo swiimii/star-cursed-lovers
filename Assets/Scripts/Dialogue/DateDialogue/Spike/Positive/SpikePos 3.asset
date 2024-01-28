@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'I like the way you think. '
   color: {r: 0.6117647, g: 0, b: 0.87058824, a: 1}
+  voice: {fileID: 8300000, guid: 8dc55576c7536ff4b9c32a013f058ac9, type: 3}
