@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: WizardCard 7
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 11400000, guid: 9251fd88e5192b74182645e16341add4, type: 2}
-  cardTypes: 0600000005000000
+  cardTypes: 0600000001000000

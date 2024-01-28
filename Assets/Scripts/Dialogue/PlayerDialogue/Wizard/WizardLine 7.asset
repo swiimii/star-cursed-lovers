@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: WizardLine 7
   m_EditorClassIdentifier: 
-  text: I'm a hairy, wizard!
+  text: Did you know that when we stare into each other's eyes, our heart rates synchronize?
+    According to research, that's a sign of love.
   color: {r: 0.24361731, g: 0.13040228, b: 0.6226415, a: 1}
+  voice: {fileID: 0}

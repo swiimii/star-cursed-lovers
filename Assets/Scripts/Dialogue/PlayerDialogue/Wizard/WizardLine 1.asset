@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: WizardLine 1
   m_EditorClassIdentifier: 
-  text: We be Wizards!
+  text: I'll discover a star and name it after you, to match the twinkle in your
+    eyes.
   color: {r: 0.24361731, g: 0.13040228, b: 0.6226415, a: 1}
+  voice: {fileID: 0}
