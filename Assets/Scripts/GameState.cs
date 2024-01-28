@@ -85,8 +85,9 @@ public class GameState : MonoBehaviour
 
     public IEnumerator SceneTransitionIE(string sceneName)
     {
-        // TODO
+        GetComponent<Animator>().SetTrigger("FadeOut");
         yield return new WaitForSeconds(.5f);
         SceneManager.LoadScene(sceneName);
+        GetComponent<Animator>().SetTrigger("FadeIn");
     }
 }
