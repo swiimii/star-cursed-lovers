@@ -15,4 +15,5 @@ MonoBehaviour:
   text: Wow, I want to spend every day with you for the rest of forever! You're the
     best! We can run around and find sticks and jump in leaves and it'll be great!
     I can't wait!
-  color: {r: 0, g: 0.5622744, b: 0.6754716, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: fcf2a11356a43bd44a99aa528f3b0b4f, type: 3}

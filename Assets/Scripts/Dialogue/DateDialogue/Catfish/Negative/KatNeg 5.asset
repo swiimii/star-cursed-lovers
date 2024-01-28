@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'I don''t close my mouth often, but you like, don''t close yours at all. '
   color: {r: 0.5471698, g: 0.15477543, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: e6368fcd126cca949991cf866a048a25, type: 3}

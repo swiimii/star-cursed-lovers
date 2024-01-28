@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'Something stinks, and it''s not me. '
   color: {r: 0.5471698, g: 0.15477543, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: 140f6a074edaf564e8314296b8b04b98, type: 3}

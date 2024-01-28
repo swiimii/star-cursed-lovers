@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogPos5
   m_EditorClassIdentifier: 
   text: Amazing! I'm so excited, if I had a tail I'd chase it!
-  color: {r: 0, g: 0, b: 0, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: 00ba68cd3caba264cb78e0c76a6a4c5f, type: 3}

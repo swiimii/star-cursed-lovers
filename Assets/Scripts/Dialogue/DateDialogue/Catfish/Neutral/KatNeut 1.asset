@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: KatNeut 1
   m_EditorClassIdentifier: 
-  text: Okay, that's fine by me!
+  text: 'I, like, don''t understand you. '
   color: {r: 0.5471698, g: 0.15477543, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: 20d775ed7a571894c97f46c72c967d13, type: 3}

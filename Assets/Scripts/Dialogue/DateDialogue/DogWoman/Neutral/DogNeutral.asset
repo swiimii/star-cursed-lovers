@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogNeutral
   m_EditorClassIdentifier: 
   text: I mean, I guess. Maybe.
-  color: {r: 0, g: 0.5622744, b: 0.6754716, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: 615a862baa8e64c489ea95a95118c6b2, type: 3}

@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'Well honeybunch, I think you and I may be a perfect fit. Let''s blow this
     popsicle stand. '
   color: {r: 0.5471698, g: 0.15477543, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: 5eeea68806a1ec1448c3243c0fea3b2d, type: 3}

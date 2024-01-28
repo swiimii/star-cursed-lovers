@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogPositive
   m_EditorClassIdentifier: 
   text: Wow! That's super cool! You're super cool! WOW!
-  color: {r: 0, g: 0.5622744, b: 0.6754716, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: ca96a562c3ccc7245ba81d31d788303d, type: 3}

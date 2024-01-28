@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogNeutral2
   m_EditorClassIdentifier: 
   text: MAIL IS HEREEEE, wait, what were we talking about?
-  color: {r: 0, g: 0, b: 0, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: 4b1aabfbec4aeed4495bf9018f027474, type: 3}

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogPos3
   m_EditorClassIdentifier: 
   text: Oh my gosh I love that soooo much!
-  color: {r: 0, g: 0, b: 0, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: 00ff99f4559ef9d489df1eed1d2a92cc, type: 3}

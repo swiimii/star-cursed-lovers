@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: KatNeut 2
   m_EditorClassIdentifier: 
-  text: Okay, that's fine by me!
+  text: 'I cannot figure out if we''re compatible, let me grab my horoscope. '
   color: {r: 0.5471698, g: 0.15477543, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: 9381df61437d9ef4ab4d9737960bc1b6, type: 3}

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogNeg3
   m_EditorClassIdentifier: 
   text: I don't think we're on the same page.
-  color: {r: 0, g: 0, b: 0, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: 16d0ace8bffbda44183035a72175b2c2, type: 3}

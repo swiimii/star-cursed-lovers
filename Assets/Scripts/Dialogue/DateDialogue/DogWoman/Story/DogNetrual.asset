@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogNetrual
   m_EditorClassIdentifier: 
   text: I don't really feel strongly either way. Ooh! Gotta get back to class!
-  color: {r: 0, g: 0, b: 0, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: a9787aa2c386f2b41a31e94481a88b2c, type: 3}

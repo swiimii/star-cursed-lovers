@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogNegative
   m_EditorClassIdentifier: 
   text: Eek! If I didn't know better, I would think you used to be a cat.
-  color: {r: 0, g: 0.5622744, b: 0.6754716, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: 9595797c5ff6458468a24a601fd4b676, type: 3}

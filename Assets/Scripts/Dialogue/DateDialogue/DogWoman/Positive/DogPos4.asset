@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: DogPos4
   m_EditorClassIdentifier: 
   text: That is the best and you are the best and we are the best and yes yes yes!
-  color: {r: 0, g: 0, b: 0, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: c915e3ea47eee794e8ac0f4c5feb7f95, type: 3}

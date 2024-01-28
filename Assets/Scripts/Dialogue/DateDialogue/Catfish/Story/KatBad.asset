@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'Honey, you are not who you seem to be. I''m going back to the bay. '
   color: {r: 0.5471698, g: 0.15477543, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: a1bae664dc58f284f96e1118f0bfe883, type: 3}

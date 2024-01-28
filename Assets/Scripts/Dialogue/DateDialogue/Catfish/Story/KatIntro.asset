@@ -16,3 +16,4 @@ MonoBehaviour:
     cursed me had a real sense of irony. But what can I say, I''ve got good taste
     and a great personality. Let''s see if you can swim with the cool cats. '
   color: {r: 0.5471698, g: 0.15477543, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: 1ad4ba1f102384d4c8b44be1621651bc, type: 3}

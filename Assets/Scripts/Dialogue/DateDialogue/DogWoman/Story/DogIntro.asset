@@ -17,4 +17,5 @@ MonoBehaviour:
     weird, what the heck is a participle? And doing taxes? Until very recently I
     had no measurable income, I'm a dog. A dog with the IRS on her tail. Get it,
     tail? Mine's gone. This is exciting, I'm so happy to meet you!
-  color: {r: 0, g: 0.5622744, b: 0.6754716, a: 1}
+  color: {r: 0, g: 0.56078434, b: 0.6745098, a: 1}
+  voice: {fileID: 8300000, guid: bfa443f350e47664ea47e48541da8a90, type: 3}
