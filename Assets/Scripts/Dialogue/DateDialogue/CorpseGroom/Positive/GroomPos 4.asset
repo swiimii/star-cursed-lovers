@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'Intriguing, and you look like a million bucks, which is good because I have
     expensive taste. '
   color: {r: 0.44227532, g: 0.54901963, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: 6080b37267fba714dbfaf2cb04d53d05, type: 3}

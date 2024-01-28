@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'Your words contain more poison than my parotoid glands. '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
+  voice: {fileID: 8300000, guid: 698f73d1876ab2e4baee8f9a5634b554, type: 3}

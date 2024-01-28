@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'I don''t think this is working for us. '
   color: {r: 0.44227532, g: 0.54901963, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: 1fd52e5295d8f9043af57265389daefb, type: 3}

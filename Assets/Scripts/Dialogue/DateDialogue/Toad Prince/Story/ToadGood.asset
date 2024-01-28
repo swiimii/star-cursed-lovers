@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'Fair courtesan, you have wooed me most heartily. My heart is won, now the
     choice is yours. '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
+  voice: {fileID: 8300000, guid: b4312205709d3684d9c093f694ccfe31, type: 3}

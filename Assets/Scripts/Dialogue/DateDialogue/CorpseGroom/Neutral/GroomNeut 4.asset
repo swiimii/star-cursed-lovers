@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'I don''t think I have much of an opinion on the matter. '
   color: {r: 0.44227532, g: 0.54901963, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: bf2a35919ab5278429384773e4f88425, type: 3}

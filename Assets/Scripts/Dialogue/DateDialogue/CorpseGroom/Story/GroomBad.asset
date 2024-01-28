@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'Darling, I would rather die again than spend another minute on this date.
     I''m going back to my eternal rest. '
   color: {r: 0.44227532, g: 0.54901963, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: 79c5755ab28b0674b9b9504650fa1c1b, type: 3}

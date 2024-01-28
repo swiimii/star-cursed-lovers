@@ -18,3 +18,4 @@ MonoBehaviour:
     this unseemly. Once upon a time, I was a handsome prince, fighting dragons and
     rescuing distressed tower-dwellers.  '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
+  voice: {fileID: 8300000, guid: d6a0681a7b53b814986b9d214e0be421, type: 3}

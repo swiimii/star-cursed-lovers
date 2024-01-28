@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'You are as confusing as my castle''s underground passages, and that is saying
     something. '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
+  voice: {fileID: 8300000, guid: dcc40090315315842bdb488ffd95ed5e, type: 3}

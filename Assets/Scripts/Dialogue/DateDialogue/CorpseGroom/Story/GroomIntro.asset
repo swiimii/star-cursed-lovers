@@ -16,3 +16,4 @@ MonoBehaviour:
     I must be back in my grave by sunrise. But I''ve always been a night owl, even
     when I was alive: the night life was my life. '
   color: {r: 0.44227532, g: 0.54901963, b: 0, a: 1}
+  voice: {fileID: 8300000, guid: 2c1e1d7ad06633f46a4195f16ff50dc7, type: 3}

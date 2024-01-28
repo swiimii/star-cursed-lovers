@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'Ah, yes. You bring out my chivalrous side, most agreeable. '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
+  voice: {fileID: 8300000, guid: 8b3726e0947775f46a089e7dab89eddb, type: 3}

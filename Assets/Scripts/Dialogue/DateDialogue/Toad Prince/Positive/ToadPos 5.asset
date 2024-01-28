@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'A little spicy, yes, I like that in a partner. '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
+  voice: {fileID: 8300000, guid: 3c25d079148177f4eb1b4637715a0471, type: 3}

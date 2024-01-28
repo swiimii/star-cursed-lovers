@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'I see. Well, this castle has been in my family for many years; I would also
     like you to be. '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
+  voice: {fileID: 8300000, guid: 3b72e699afb7b98429c37b6a4a79326b, type: 3}

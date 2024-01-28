@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'Kindgoms are not built on jokes and promises, don''t be ridiculous. '
   color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
+  voice: {fileID: 8300000, guid: 0155ff3223deb0145a174b99c2861d36, type: 3}
