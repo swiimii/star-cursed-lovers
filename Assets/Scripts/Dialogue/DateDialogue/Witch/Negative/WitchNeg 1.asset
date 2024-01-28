@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'That is about as appealing as a 300-year-old potion left to spoil in the
     sun. '
   color: {r: 0.6377357, g: 0, b: 0.4821416, a: 1}
+  voice: {fileID: 8300000, guid: 9d955c65cc9b1b44cb2844f69a6b6d8e, type: 3}
