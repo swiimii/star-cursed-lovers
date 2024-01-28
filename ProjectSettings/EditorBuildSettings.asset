@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dates/CatfishDate.unity
     guid: d5d17e0e7f6423b4786b94efedaf84f8
+  - enabled: 1
+    path: Assets/Scenes/EndChoice.unity
+    guid: 65a7120fee97d674d8ce72168d63c3f0
   m_configObjects: {}

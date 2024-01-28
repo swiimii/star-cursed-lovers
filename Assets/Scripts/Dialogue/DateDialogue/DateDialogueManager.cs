@@ -9,19 +9,26 @@ public class DateDialogueManager : MonoBehaviour
     public DateDetails dateDetails;
     public DialogueBox dialogueBox;
 
-    public int dialogueMeter = 0;
+    public int dialogueMeter = 0, messageCount = 0;
+
+    const int MAX_MESSAGES = 5, VICTORY_THRESHOLD = 1;
 
     private void Start()
     {
         positiveLines = new List<Line>(dateDetails.positiveLines);
         negativeLines = new List<Line>(dateDetails.negativeLines);
         neutralLines = new List<Line>(dateDetails.neutralLines);
+
+        foreach( var line in dateDetails.introLines )
+        {
+            StartCoroutine(DisplayMessageIE(line));
+        }
     }
 
     public IEnumerator PlayerSendMessage(Line message, List<GameDefs.Type> dialogueTypes)
     {
         bool isGood = false, isBad = false;
-
+        messageCount++;
         foreach ( var aspect in dialogueTypes )
         {
             if( dateDetails.negativeTypes.Contains(aspect) )
@@ -62,6 +69,11 @@ public class DateDialogueManager : MonoBehaviour
         }
 
         yield return MessageAndResponse(message, dateResponse);
+
+        if( messageCount >= MAX_MESSAGES )
+        {
+            yield return DateConclusion();
+        }
     }
 
     private IEnumerator MessageAndResponse(Line message, Line response )
@@ -77,6 +89,35 @@ public class DateDialogueManager : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         yield return dialogueBox.DisplayMessage(response);
         yield return new WaitForSeconds(.5f);
+    }
+
+    private IEnumerator DisplayMessageIE(Line message )
+    {
+        yield return dialogueBox.DisplayMessage(message);
+        yield return new WaitForSeconds(1.5f);
+    }
+
+    public IEnumerator DateConclusion()
+    {
+        if( dialogueMeter >= VICTORY_THRESHOLD )
+        {
+            // good
+            foreach( var line in dateDetails.winLines )
+            {
+                yield return DisplayMessageIE(line);
+            }
+            GameState.singleton.daysWon.Add(GameState.singleton.daysPassed - 1);
+            GameState.singleton.TransitionToLevelSelect();
+        }
+        else
+        {
+            // Bad
+            foreach (var line in dateDetails.loseLines)
+            {
+                yield return DisplayMessageIE(line);
+            }
+            GameState.singleton.TransitionToLevelSelect();
+        }
     }
 
     public void Test_MessageAndResponse()

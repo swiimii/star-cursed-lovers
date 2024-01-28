@@ -28,6 +28,8 @@ public class LevelCard : MonoBehaviour
                 GameState.singleton.daysPassed += 1;
             Debug.Log("Swiped Left");
             GetComponent<Animator>().SetTrigger("SwipeLeft");
+            
+            GameState.singleton.CheckGameEnd();
         }
     }
 }
