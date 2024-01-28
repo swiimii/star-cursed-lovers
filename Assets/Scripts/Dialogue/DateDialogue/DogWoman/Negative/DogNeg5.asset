@@ -10,9 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
-  m_Name: DogGood
+  m_Name: DogNeg5
   m_EditorClassIdentifier: 
-  text: Wow, I want to spend every day with you for the rest of forever! You're the
-    best! We can run around and find sticks and jump in leaves and it'll be great!
-    I can't wait!
-  color: {r: 0, g: 0.5622744, b: 0.6754716, a: 1}
+  text: I think you're in the doghouse now.
+  color: {r: 0, g: 0, b: 0, a: 1}
