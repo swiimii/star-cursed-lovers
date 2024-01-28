@@ -10,6 +10,8 @@ public class DateDialogueManager : MonoBehaviour
     public DialogueBox dialogueBox;
 
     public int dialogueMeter = 0, messageCount = 0;
+    public int currentdialogue;
+    public LoveBar loveBar;
 
     const int MAX_MESSAGES = 5, VICTORY_THRESHOLD = 1;
 
@@ -18,8 +20,9 @@ public class DateDialogueManager : MonoBehaviour
         positiveLines = new List<Line>(dateDetails.positiveLines);
         negativeLines = new List<Line>(dateDetails.negativeLines);
         neutralLines = new List<Line>(dateDetails.neutralLines);
-
-        foreach( var line in dateDetails.introLines )
+        currentdialogue = dialogueMeter;
+        loveBar.SetMaxHealth(dialogueMeter);
+        foreach ( var line in dateDetails.introLines )
         {
             StartCoroutine(DisplayMessageIE(line));
         }
@@ -37,6 +40,7 @@ public class DateDialogueManager : MonoBehaviour
                 Debug.Log("Bad line...");
                 isBad = true;
                 dialogueMeter--;
+                loveBar.SetHealth(dialogueMeter);
             }
             
             if( dateDetails.positiveTypes.Contains(aspect) )
@@ -45,6 +49,7 @@ public class DateDialogueManager : MonoBehaviour
                 Debug.Log("Good Line!");
                 isGood = true;
                 dialogueMeter++;
+                loveBar.SetHealth(dialogueMeter);
             }
 
             // Reveal Trait If Necessary!
