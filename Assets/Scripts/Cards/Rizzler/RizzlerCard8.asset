@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: RizzlerCard8
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 11400000, guid: f247e398d7072824889bf1f55e316207, type: 2}
-  cardTypes: 0400000006000000
+  cardTypes: 0400000002000000

@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
-  m_Name: SpikeIntro
+  m_Name: SpikePos 4
   m_EditorClassIdentifier: 
-  text: 'Hello dearest, it''s a pleasure to meet you. I''m Spike. Yes, that has always
-    been my name, it''s okay if you laugh. I wasn''t cursed with spikes until later
-    in life, but I won''t change my name because of a curse I have no intention of
-    keeping. That''s why I''m here, to find love and break my curse - and hopefully
-    to break your curse too.  '
+  text: 'You''re pretty sharp, you know that? '
   color: {r: 0.6117647, g: 0, b: 0.87058824, a: 1}
