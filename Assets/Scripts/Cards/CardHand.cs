@@ -33,6 +33,7 @@ public class CardHand : MonoBehaviour
 
         Debug.Log("Draw!");
         isDrawingCard = true;
+
         GameObject? newCard = deck.DrawCard();
         if( newCard )
         {

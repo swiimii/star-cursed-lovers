@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameState : MonoBehaviour
 {
-    private int daysPassed = 0;
+    public int daysPassed = 0;
+    public static GameState singleton;
+    public GameDefs.Decks deckMode = GameDefs.Decks.Rizzler;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,24 +31,50 @@ public class GameState : MonoBehaviour
         }
 
         DontDestroyOnLoad(this);
+        singleton = this;
     }
 
-    /**
-     * This function should be called when a date is skipped, or a level is completed/failed.
-     * When each date is either skipped or completed, the final screen should be shown and 
-     * the player's final choice is provided; which ending is wanted.
-     * 
-     * After an ending is chosen, the player should be led to the main menu, which will delete
-     * this gameObject and instantiate a new GameState instance (per Start() function)
-     */
-    private void IncrementDaysPassed()
+    public void SetDeckMode(int mode)
     {
-        // increment daysPassed
-
-        int maxDays = 7;
-        if( daysPassed >= maxDays )
+        switch (mode)
         {
-            // transition to final screen
+            case 0:
+                deckMode = GameDefs.Decks.Rizzler;
+                break;
+            case 1:
+                deckMode = GameDefs.Decks.Wizard;
+                break;
+            case 2:
+                deckMode = GameDefs.Decks.Rebel;
+                break;
+            default:
+                Debug.LogError("Unexpecte Int for Deck Mode");
+                break;
         }
+
+    }
+
+    // Helper Scene Functions
+    public void TransitionToLevelSelect()
+    {
+        StartCoroutine(SceneTransitionIE("LevelSelect"));
+    }
+
+    public void TransitionToHome()
+    {
+        StartCoroutine(SceneTransitionIE("MainMenu"));
+
+    }
+
+    public void TransitionToScene(string sceneName)
+    {
+        StartCoroutine(SceneTransitionIE(sceneName));
+    }
+
+    public IEnumerator SceneTransitionIE(string sceneName)
+    {
+        // TODO
+        yield return new WaitForSeconds(.5f);
+        SceneManager.LoadScene(sceneName);
     }
 }

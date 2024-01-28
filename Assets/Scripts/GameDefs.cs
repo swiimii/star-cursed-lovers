@@ -14,4 +14,11 @@ public static class GameDefs
         Creepy,
         Intelligence
     }
+
+    public enum Decks
+    {
+        Rizzler,
+        Wizard,
+        Rebel
+    }
 }
