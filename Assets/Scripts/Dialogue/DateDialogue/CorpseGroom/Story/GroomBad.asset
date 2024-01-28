@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: GroomBad
   m_EditorClassIdentifier: 
-  text: That wasn't very fun...
+  text: 'Darling, I would rather die again than spend another minute on this date.
+    I''m going back to my eternal rest. '
   color: {r: 0.44227532, g: 0.54901963, b: 0, a: 1}

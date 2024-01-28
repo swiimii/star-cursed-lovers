@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: WitchNeg 2
   m_EditorClassIdentifier: 
-  text: I'm not sure how I feel about that...
+  text: 'I think you should quit while you''re ahead; that is, while you still have
+    one. '
   color: {r: 0.6377357, g: 0, b: 0.4821416, a: 1}

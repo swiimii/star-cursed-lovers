@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: GroomIntro
   m_EditorClassIdentifier: 
-  text: Hi! I'm Toad.
+  text: 'Why hello there. Thank you for meeting me here, my curse specifies that
+    I must be back in my grave by sunrise. But I''ve always been a night owl, even
+    when I was alive: the night life was my life. '
   color: {r: 0.44227532, g: 0.54901963, b: 0, a: 1}

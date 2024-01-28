@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: DaveIntro
   m_EditorClassIdentifier: 
-  text: Hi! I'm Dave.
+  text: '*yawns* Oh hi. Sorry, I just woke up. Again. I''m Dave. I was cursed to
+    doze off constantly, so it would probably be best to keep this short. Although,
+    I will probably see you in my dreams; it''s hard to tell the difference anymore. '
   color: {r: 0.2679245, g: 0.2679245, b: 0.2679245, a: 1}
