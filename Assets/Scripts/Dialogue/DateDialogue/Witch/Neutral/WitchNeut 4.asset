@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'I''ll have to consult my familiar on that topic. '
   color: {r: 0.6377357, g: 0, b: 0.4821416, a: 1}
+  voice: {fileID: 8300000, guid: 30e0f7cc9e678d145ba41cbd8dd6ec2b, type: 3}

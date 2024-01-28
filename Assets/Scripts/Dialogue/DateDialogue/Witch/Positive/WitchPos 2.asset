@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'You are positively bewitching, my dear. '
   color: {r: 0.6377357, g: 0, b: 0.4821416, a: 1}
+  voice: {fileID: 8300000, guid: e18a56203cc84ae45ae49dca92b8aec3, type: 3}

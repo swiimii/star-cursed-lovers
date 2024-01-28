@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'I''m not certain that is what I want. '
   color: {r: 0.6377357, g: 0, b: 0.4821416, a: 1}
+  voice: {fileID: 8300000, guid: 5ebcb9f04458d4e45b61faa425935509, type: 3}

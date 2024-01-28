@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'If I had a wand, I''d wave it to make you disappear. '
   color: {r: 0.6377357, g: 0, b: 0.4821416, a: 1}
+  voice: {fileID: 8300000, guid: 91125558343cd044c9f5b4cc5301a7e4, type: 3}

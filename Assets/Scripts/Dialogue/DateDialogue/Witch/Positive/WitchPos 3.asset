@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'I think our fates are intertwined, like two rat''s tails in a swirling cauldron. '
   color: {r: 0.6377357, g: 0, b: 0.4821416, a: 1}
+  voice: {fileID: 8300000, guid: 16596532357207f4ba77e70c46c66a2c, type: 3}

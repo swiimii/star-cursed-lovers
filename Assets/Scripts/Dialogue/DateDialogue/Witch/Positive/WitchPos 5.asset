@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'I would like to fly you to the moon. On my broom, that is. '
   color: {r: 0.6377357, g: 0, b: 0.4821416, a: 1}
+  voice: {fileID: 8300000, guid: ce912145f78edef43a9657a4896f5fa3, type: 3}

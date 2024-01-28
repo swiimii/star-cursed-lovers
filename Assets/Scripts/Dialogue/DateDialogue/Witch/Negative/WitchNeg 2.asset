@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'I think you should quit while you''re ahead; that is, while you still have
     one. '
   color: {r: 0.6377357, g: 0, b: 0.4821416, a: 1}
+  voice: {fileID: 8300000, guid: 36ffdda7f05cd6444b4d271d6c2b8e11, type: 3}
