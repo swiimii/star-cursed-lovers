@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
-  m_Name: GroomNeutral
+  m_Name: GroomNeut 4
   m_EditorClassIdentifier: 
-  text: Okay, that's fine by me!
+  text: 'I don''t think I have much of an opinion on the matter. '
   color: {r: 0.44227532, g: 0.54901963, b: 0, a: 1}

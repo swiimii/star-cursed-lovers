@@ -16,10 +16,22 @@ MonoBehaviour:
   negativeTypes: 0500000004000000
   positiveLines:
   - {fileID: 11400000, guid: f0f6dbca4876ea44584cecd6749c9041, type: 2}
+  - {fileID: 11400000, guid: 82870982ae2237a4eb888b46b6f34a56, type: 2}
+  - {fileID: 11400000, guid: 5c1be01f4f05ba4479f2b6f48278ec46, type: 2}
+  - {fileID: 11400000, guid: 91a8d97f67d908744a5a40cdae084bb8, type: 2}
+  - {fileID: 11400000, guid: 93cb71bfd0af25b42ab416e59e50196c, type: 2}
   negativeLines:
   - {fileID: 11400000, guid: 7f09ef95306caa8449b9af3f333e28ee, type: 2}
+  - {fileID: 11400000, guid: 75881af6279199e4c8d0df06e8100cab, type: 2}
+  - {fileID: 11400000, guid: 9992379fcd629b542b1fb5cfbac26e37, type: 2}
+  - {fileID: 11400000, guid: aa17e22d4a28f2e428b426c6b8e3cd18, type: 2}
+  - {fileID: 11400000, guid: 670a47463c54a42499badd15712f39de, type: 2}
   neutralLines:
   - {fileID: 11400000, guid: eed2b6b13eaa1b9488e455a7f63ac8ff, type: 2}
+  - {fileID: 11400000, guid: b36b7ecb9e8554b4987441af984aa760, type: 2}
+  - {fileID: 11400000, guid: 3f2392327cd91d14ca93dd1b0c808c71, type: 2}
+  - {fileID: 11400000, guid: faac69cc0766e2b449b3e1d444e5af9b, type: 2}
+  - {fileID: 11400000, guid: 693d728c64545f449b2aa9d3ec413dce, type: 2}
   introLines:
   - {fileID: 11400000, guid: fcfa4020ee196bf459375cc79539ff8b, type: 2}
   winLines:

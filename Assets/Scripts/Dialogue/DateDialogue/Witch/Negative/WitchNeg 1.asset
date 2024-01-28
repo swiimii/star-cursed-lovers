@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: WitchNeg 1
   m_EditorClassIdentifier: 
-  text: I'm not sure how I feel about that...
+  text: 'That is about as appealing as a 300-year-old potion left to spoil in the
+    sun. '
   color: {r: 0.6377357, g: 0, b: 0.4821416, a: 1}

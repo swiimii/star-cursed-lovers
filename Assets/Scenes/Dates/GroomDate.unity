@@ -425,7 +425,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 225}
+  m_AnchoredPosition: {x: 0, y: 210}
   m_SizeDelta: {x: 380, y: 540}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &841418942
@@ -448,9 +448,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1417a920e7dc2d842838ecc33178a330, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e4b5394b383f1bd40993e25670f41ea4, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -478,9 +478,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0365fcf6a27dcdf48aab8488f2ed7e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  positive: {fileID: 21300000, guid: c3e457012a8dfdf4fb8cc687a06cd84a, type: 3}
-  negative: {fileID: 21300000, guid: 5129915120c7c6f4eacf04ee96722db8, type: 3}
-  neutral: {fileID: 21300000, guid: 1417a920e7dc2d842838ecc33178a330, type: 3}
+  positive: {fileID: 21300000, guid: 8d6a72373843f024fb015c40385daf13, type: 3}
+  negative: {fileID: 21300000, guid: 4c3eed4612396064989ab186797af768, type: 3}
+  neutral: {fileID: 21300000, guid: e4b5394b383f1bd40993e25670f41ea4, type: 3}
 --- !u!224 &1146511471 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2688096560514425824, guid: 73a3f9bc6cb5dea499c56b6cbba80e52, type: 3}
