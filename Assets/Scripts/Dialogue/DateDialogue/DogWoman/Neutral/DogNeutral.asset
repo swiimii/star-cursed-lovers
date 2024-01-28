@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: DogNeutral
   m_EditorClassIdentifier: 
-  text: Okay, that's fine by me!
+  text: I mean, I guess. Maybe.
   color: {r: 0, g: 0.5622744, b: 0.6754716, a: 1}
