@@ -129,6 +129,7 @@ public class DateDialogueManager : MonoBehaviour
             {
                 yield return DisplayMessageIE(line);
             }
+            yield return new WaitForSeconds(4);
             GameState.singleton.daysWon.Add(GameState.singleton.daysPassed - 1);
             GameState.singleton.TransitionToLevelSelect();
         }
