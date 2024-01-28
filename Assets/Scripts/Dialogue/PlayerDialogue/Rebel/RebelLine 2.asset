@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: RebelLine 2
   m_EditorClassIdentifier: 
-  text: <3 Mom
+  text: I would like you to be the Maid Marion to my Robin Hood. Or you can be Robin
+    Hood, both ways work for me. Let's just steal from the rich and give to the poor
+    together.
   color: {r: 0.5999999, g: 0.45252073, b: 0.012452815, a: 1}
+  voice: {fileID: 0}

@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: RebelLine 8
   m_EditorClassIdentifier: 
-  text: I don't want to write any more than I already have
+  text: Are you an asteroid? Because you're smoking hot.
   color: {r: 0.5999999, g: 0.45252073, b: 0.012452815, a: 1}
+  voice: {fileID: 0}
