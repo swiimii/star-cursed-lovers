@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb9baa9de401fb4092a27382274220a, type: 3}
+  m_Name: DaveDetails
+  m_EditorClassIdentifier: 
+  positiveTypes: 0000000006000000
+  negativeTypes: 0500000004000000
+  positiveLines:
+  - {fileID: 11400000, guid: f0f6dbca4876ea44584cecd6749c9041, type: 2}
+  negativeLines:
+  - {fileID: 11400000, guid: 7f09ef95306caa8449b9af3f333e28ee, type: 2}
+  neutralLines:
+  - {fileID: 11400000, guid: eed2b6b13eaa1b9488e455a7f63ac8ff, type: 2}
+  introLines:
+  - {fileID: 11400000, guid: fcfa4020ee196bf459375cc79539ff8b, type: 2}
+  winLines:
+  - {fileID: 11400000, guid: 9fa725ba773f2b142aa561c46b7f844f, type: 2}
+  loseLines:
+  - {fileID: 11400000, guid: 5bb073a3408f48248ba0f1d9ae48d5be, type: 2}

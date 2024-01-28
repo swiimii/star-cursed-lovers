@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SpikeBad
   m_EditorClassIdentifier: 
   text: That wasn't very fun...
-  color: {r: 0, g: 0, b: 0, a: 1}
+  color: {r: 0.6117647, g: 0, b: 0.87058824, a: 1}

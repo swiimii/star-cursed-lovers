@@ -400,6 +400,7 @@ GameObject:
   - component: {fileID: 841418941}
   - component: {fileID: 841418943}
   - component: {fileID: 841418942}
+  - component: {fileID: 841418944}
   m_Layer: 5
   m_Name: Character
   m_TagString: Untagged
@@ -464,6 +465,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841418940}
   m_CullTransparentMesh: 1
+--- !u!114 &841418944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841418940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0365fcf6a27dcdf48aab8488f2ed7e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positive: {fileID: 21300000, guid: c3e457012a8dfdf4fb8cc687a06cd84a, type: 3}
+  negative: {fileID: 21300000, guid: 5129915120c7c6f4eacf04ee96722db8, type: 3}
+  neutral: {fileID: 21300000, guid: 1417a920e7dc2d842838ecc33178a330, type: 3}
 --- !u!224 &1146511471 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2688096560514425824, guid: 73a3f9bc6cb5dea499c56b6cbba80e52, type: 3}
@@ -630,6 +646,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 824802132}
     m_Modifications:
+    - target: {fileID: 268299722139104474, guid: 73a3f9bc6cb5dea499c56b6cbba80e52, type: 3}
+      propertyPath: dateDetails
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c6592629f158964eb1aacdc93dac457, type: 2}
     - target: {fileID: 2688096560514425824, guid: 73a3f9bc6cb5dea499c56b6cbba80e52, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

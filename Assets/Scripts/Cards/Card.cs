@@ -30,13 +30,18 @@ public class Card : MonoBehaviour
         var hand = FindObjectOfType<CardHand>();
         if( !hand.isPlayingCard)
         {
+            GetComponent<AudioSource>().Play();
             transform.SetParent(null);
             GetComponent<Image>().color = Color.clear;
             hand.isPlayingCard = true;
-            yield return FindObjectOfType<DateDialogueManager>().PlayerSendMessage(details.dialogueText, details.cardTypes);
-            hand.DrawCard();
-            hand.isPlayingCard = false;
-            Destroy(this.gameObject);
+            var dm = FindObjectOfType<DateDialogueManager>();
+            yield return dm.PlayerSendMessage(details.dialogueText, details.cardTypes);
+            if( !dm.DateIsConcluding() )
+            {
+                hand.DrawCard();
+                hand.isPlayingCard = false;
+                Destroy(this.gameObject);
+            }
         }
     }
 }

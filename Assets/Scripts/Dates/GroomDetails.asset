@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb9baa9de401fb4092a27382274220a, type: 3}
+  m_Name: GroomDetails
+  m_EditorClassIdentifier: 
+  positiveTypes: 0200000004000000
+  negativeTypes: 0500000006000000
+  positiveLines:
+  - {fileID: 11400000, guid: 5c1c89e1ac37394428078cd96247f465, type: 2}
+  negativeLines:
+  - {fileID: 11400000, guid: a42673cae62b7a9409b002bd2d06eb8c, type: 2}
+  neutralLines:
+  - {fileID: 11400000, guid: e76a28b0ed51e3c46bfcbc8c153a4dbb, type: 2}
+  introLines:
+  - {fileID: 11400000, guid: ba02162183378d940a3ecdeda5ea206e, type: 2}
+  winLines:
+  - {fileID: 11400000, guid: dd4b3fa09dbd5044ab9fca3f84967602, type: 2}
+  loseLines:
+  - {fileID: 11400000, guid: e0a3250188922d641a3c77501e03f4ad, type: 2}

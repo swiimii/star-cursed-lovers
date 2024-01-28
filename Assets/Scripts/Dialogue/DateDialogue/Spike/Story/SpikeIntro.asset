@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SpikeIntro
   m_EditorClassIdentifier: 
   text: Hi! I'm Spike.
-  color: {r: 0, g: 0, b: 0, a: 1}
+  color: {r: 0.6117647, g: 0, b: 0.87058824, a: 1}
