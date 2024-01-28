@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86ec24ec13bb5db45b2819ab06afd268, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decklist:
+  rizzlerDeck:
   - {fileID: 11400000, guid: e16226b34469f354a9864a408a6f7580, type: 2}
   - {fileID: 11400000, guid: 11ccb538357015e4eb68df4865e163db, type: 2}
   - {fileID: 11400000, guid: 08c6283c0bfa9b44693e7b9c51a581db, type: 2}
@@ -97,9 +97,31 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2e4a5903fae086c4fb24ba51e5720c44, type: 2}
   - {fileID: 11400000, guid: 82a25751aabec1e4f9c3aeb7f1191b5d, type: 2}
   - {fileID: 11400000, guid: 3ca9f29cdadd715488836c8b0cb65284, type: 2}
+  wizardDeck:
+  - {fileID: 11400000, guid: 811945263ccb893459d4525bc1de6620, type: 2}
+  - {fileID: 11400000, guid: d5330c1ba4c51d947bd3f8a0aac1adb0, type: 2}
+  - {fileID: 11400000, guid: 9ee2f989643ead442b95dfee1d43f47c, type: 2}
+  - {fileID: 11400000, guid: cdf04633824b0794da0e83005b95f886, type: 2}
+  - {fileID: 11400000, guid: aa1bf49a78f4ea54f9ef865ef1b83a85, type: 2}
+  - {fileID: 11400000, guid: 13a69578b5255b14987dd41dbd3bebd2, type: 2}
+  - {fileID: 11400000, guid: c510b7cd579ba7f45b2f91dcf7cac761, type: 2}
+  - {fileID: 11400000, guid: 0bebfacdeda27ce49a378a4fcaa90107, type: 2}
+  rebelDeck:
+  - {fileID: 11400000, guid: 0edba7262594ae84a8693775ebf4ab34, type: 2}
+  - {fileID: 11400000, guid: 8bdfd32d8565db3449bd23a5a352a8d9, type: 2}
+  - {fileID: 11400000, guid: 6ab56490dca0bf840a622431a1ed1f96, type: 2}
+  - {fileID: 11400000, guid: f447a7af84c59444ba60ef32c08173bb, type: 2}
+  - {fileID: 11400000, guid: a324ffa3962ed4a4b9eb1ef9a276e461, type: 2}
+  - {fileID: 11400000, guid: 37607a3440dfb7749aaf1a6178cae50e, type: 2}
+  - {fileID: 11400000, guid: 2e0eb87544d91854f99bbe544637d823, type: 2}
+  - {fileID: 11400000, guid: 8eb5c1f1ab9c9934cb2820ea01f88fa1, type: 2}
   drawPile: []
   cardPrefab: {fileID: 784240861624841092, guid: 0a131726a8c42b442b089b32e51d17b0, type: 3}
   cardArt:
   - {fileID: 21300000, guid: 0d07630e4f8f4674eb30e3b540bf494d, type: 3}
   - {fileID: 21300000, guid: 2982a19e5408d6a4f92c7e715d91e5e4, type: 3}
   - {fileID: 21300000, guid: 955d55864b5d9db468115631e3c24621, type: 3}
+  deckArt:
+  - {fileID: 21300000, guid: 900f6e208abb063479cfdb26655fb1d1, type: 3}
+  - {fileID: 21300000, guid: b072741afd74ee243a859807f6b1a8b4, type: 3}
+  - {fileID: 21300000, guid: 47f24a7ad284d234b806f7f8ca48266b, type: 3}

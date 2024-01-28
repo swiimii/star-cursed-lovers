@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 public class GameState : MonoBehaviour
 {
     public int daysPassed = 0;
+    public List<int> daysWon;
     public static GameState singleton;
     public GameDefs.Decks deckMode = GameDefs.Decks.Rizzler;
 
     // Start is called before the first frame update
     void Start()
     {
+        daysWon = new List<int>();
         /** 
          * Game state shouldn't be destroyed on load.
          * Whenever the player goes to the main menu,
@@ -52,6 +54,16 @@ public class GameState : MonoBehaviour
                 break;
         }
 
+    }
+
+    public void CheckGameEnd()
+    {
+        const int TOTAL_CHARACTERS_DONE = 2;
+        if (GameState.singleton.daysPassed >= TOTAL_CHARACTERS_DONE )
+        {
+            // Game over; go to end screen!
+            GameState.singleton.TransitionToScene("EndChoice");
+        }
     }
 
     // Helper Scene Functions

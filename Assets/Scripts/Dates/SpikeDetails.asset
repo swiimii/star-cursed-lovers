@@ -25,6 +25,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6baad29edffde4d418ec37c92aae3bf7, type: 2}
   - {fileID: 11400000, guid: 6baad29edffde4d418ec37c92aae3bf7, type: 2}
   - {fileID: 11400000, guid: 6baad29edffde4d418ec37c92aae3bf7, type: 2}
-  introLines: []
-  winLines: []
-  loseLines: []
+  introLines:
+  - {fileID: 11400000, guid: 5ea3b6096e543404caf10bda79aef7c0, type: 2}
+  winLines:
+  - {fileID: 11400000, guid: 52f1473b6793c3f4d83aaa5470f17d6a, type: 2}
+  loseLines:
+  - {fileID: 11400000, guid: 97485ec0a4c83d34ea84c8c80afadcd9, type: 2}

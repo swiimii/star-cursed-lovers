@@ -6,5 +6,5 @@ using UnityEngine;
 public class Line : ScriptableObject
 {
     public string text;
-    public Color color;
+    public Color color = Color.black;
 }
