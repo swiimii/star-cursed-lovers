@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: RebelCard 3
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 11400000, guid: f3c0afec20b6e4c47a48700b0b128c57, type: 2}
-  cardTypes: 0000000003000000
+  cardTypes: 0200000000000000

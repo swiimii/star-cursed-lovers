@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: RebelLine 1
   m_EditorClassIdentifier: 
-  text: Green Day is sick
+  text: If we were on the run, I'd make it cute and fun, like cutting eye holes in
+    newpaper and stuff. Let's just be silly together!
   color: {r: 0.5999999, g: 0.45252073, b: 0.012452815, a: 1}
+  voice: {fileID: 0}

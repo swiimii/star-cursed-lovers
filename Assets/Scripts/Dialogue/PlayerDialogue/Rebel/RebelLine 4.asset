@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: RebelLine 4
   m_EditorClassIdentifier: 
-  text: I vote for Vermin Supreme
+  text: Skinny dipping is illegal in most US states, but I'd take you skinny dipping
+    anyway.
   color: {r: 0.5999999, g: 0.45252073, b: 0.012452815, a: 1}
+  voice: {fileID: 0}
