@@ -577,7 +577,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0de3e229cdc53a949b6c520c8a51d3a0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 119a9d278e95f3e4587b50b0b59918ab, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -607,9 +607,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0365fcf6a27dcdf48aab8488f2ed7e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  positive: {fileID: 21300000, guid: d3b1e7492ac89cc45aed0aa4bb685548, type: 3}
-  negative: {fileID: 21300000, guid: 5b8b65be04a3ac447b58c1ab97274d84, type: 3}
-  neutral: {fileID: 21300000, guid: 0de3e229cdc53a949b6c520c8a51d3a0, type: 3}
+  positive: {fileID: 21300000, guid: 3148f04a4d6ca044e97d94f7b874a12c, type: 3}
+  negative: {fileID: 21300000, guid: 4a87c07757da23e46abfb804cb10230e, type: 3}
+  neutral: {fileID: 21300000, guid: 119a9d278e95f3e4587b50b0b59918ab, type: 3}
 --- !u!224 &1146511471 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2688096560514425824, guid: 73a3f9bc6cb5dea499c56b6cbba80e52, type: 3}
