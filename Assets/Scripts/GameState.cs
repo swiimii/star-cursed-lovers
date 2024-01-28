@@ -27,7 +27,7 @@ public class GameState : MonoBehaviour
             {
                 if( state != this )
                 {
-                    Destroy(state);
+                    Destroy(state.gameObject);
                 }
             }
         }
@@ -58,7 +58,7 @@ public class GameState : MonoBehaviour
 
     public void CheckGameEnd()
     {
-        const int TOTAL_CHARACTERS_DONE = 2;
+        const int TOTAL_CHARACTERS_DONE = 7;
         if (GameState.singleton.daysPassed >= TOTAL_CHARACTERS_DONE )
         {
             // Game over; go to end screen!

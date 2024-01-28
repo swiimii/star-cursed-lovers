@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb9baa9de401fb4092a27382274220a, type: 3}
+  m_Name: WitchDetails
+  m_EditorClassIdentifier: 
+  positiveTypes: 0300000004000000
+  negativeTypes: 0000000002000000
+  positiveLines:
+  - {fileID: 11400000, guid: 9ae516cc7f7f80e4a9e0b442a963622d, type: 2}
+  negativeLines:
+  - {fileID: 11400000, guid: 3d285ddffbd7a6449954b5420ea5938b, type: 2}
+  neutralLines:
+  - {fileID: 11400000, guid: 39ce5053e00c0de46a3528b86dc941a7, type: 2}
+  introLines:
+  - {fileID: 11400000, guid: 6215a5fcc6e189d488421c6265f55014, type: 2}
+  winLines:
+  - {fileID: 11400000, guid: 3751ecfcc89c27f489845e0a2da98bbd, type: 2}
+  loseLines:
+  - {fileID: 11400000, guid: b81282ec9d69c4646b5157fe274ab6f8, type: 2}

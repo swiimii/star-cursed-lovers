@@ -7,6 +7,7 @@ public class CardHand : MonoBehaviour
     public Deck deck;
     bool isDrawingCard = false;
     public bool isPlayingCard = false;
+    public AudioClip cardDraw, cardShuffle;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,7 @@ public class CardHand : MonoBehaviour
             var newCard = deck.DrawCard();
             newCard.transform.SetParent(this.transform);
             newCard.transform.localScale = Vector3.one;
+            GetComponent<AudioSource>().PlayOneShot(cardShuffle);
         }
     }
 
@@ -39,6 +41,8 @@ public class CardHand : MonoBehaviour
         {
             newCard.transform.SetParent(this.transform);
             newCard.transform.localScale = Vector3.one;
+            GetComponent<AudioSource>().PlayOneShot(cardDraw);
+
             yield return new WaitForSeconds(.5f);
             isDrawingCard = false;
             yield return null;

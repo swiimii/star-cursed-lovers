@@ -51,7 +51,7 @@ public class DateDialogueManager : MonoBehaviour
         }
 
         Line dateResponse;
-
+        int responseValue = 0;
         if ( isGood == isBad )
         {
             // Neutral response
@@ -60,33 +60,42 @@ public class DateDialogueManager : MonoBehaviour
         else if( isGood )
         {
             // Good Response
+            responseValue = 1;
             dateResponse = PopResponseLine( ref positiveLines );
         }
         else // isBad
         {
             // Bad Response
+            responseValue = -1;
             dateResponse = PopResponseLine(ref negativeLines );
         }
 
-        yield return MessageAndResponse(message, dateResponse);
+        yield return MessageAndResponse(message, dateResponse, responseValue);
 
-        if( messageCount >= MAX_MESSAGES )
+        if(DateIsConcluding())
         {
             yield return DateConclusion();
         }
     }
 
-    private IEnumerator MessageAndResponse(Line message, Line response )
+    public bool DateIsConcluding()
+    {
+        return messageCount >= MAX_MESSAGES;
+    }
+
+    private IEnumerator MessageAndResponse(Line message, Line response, int responseValue )
     {
         StopAllCoroutines();
         dialogueBox.StopAllCoroutines();
-        yield return MessageAndResponseIE( message, response );
+        yield return MessageAndResponseIE( message, response, responseValue );
     }
 
-    private IEnumerator MessageAndResponseIE(Line message, Line response)
+    private IEnumerator MessageAndResponseIE(Line message, Line response, int reactionValue )
     {
         yield return dialogueBox.DisplayMessage(message);
         yield return new WaitForSeconds(1.5f);
+        
+        FindObjectOfType<DateSprite>().DoReaction(reactionValue);
         yield return dialogueBox.DisplayMessage(response);
         yield return new WaitForSeconds(.5f);
     }

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb9baa9de401fb4092a27382274220a, type: 3}
+  m_Name: CatfishDetails
+  m_EditorClassIdentifier: 
+  positiveTypes: 0300000005000000
+  negativeTypes: 0100000006000000
+  positiveLines:
+  - {fileID: 11400000, guid: 53f81d3c0c2885a4694078e459eb7a38, type: 2}
+  negativeLines:
+  - {fileID: 11400000, guid: fc088cd6255881d4289729ba82291520, type: 2}
+  neutralLines:
+  - {fileID: 11400000, guid: 4cd77c1b7a60b3245be2302929c20ad2, type: 2}
+  introLines:
+  - {fileID: 11400000, guid: c63140a007f0e604db3dff0c6ed91694, type: 2}
+  winLines:
+  - {fileID: 11400000, guid: 86eb02310ce612b4a8c1c475e539d803, type: 2}
+  loseLines:
+  - {fileID: 11400000, guid: 81aa38ce211503f459e76d49c2ec1453, type: 2}

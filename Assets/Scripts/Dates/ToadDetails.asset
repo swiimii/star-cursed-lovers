@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb9baa9de401fb4092a27382274220a, type: 3}
+  m_Name: ToadDetails
+  m_EditorClassIdentifier: 
+  positiveTypes: 0200000005000000
+  negativeTypes: 0000000001000000
+  positiveLines:
+  - {fileID: 11400000, guid: 57b390071cbb80c45bf0923f36f2788a, type: 2}
+  negativeLines:
+  - {fileID: 11400000, guid: 8749eb998420cd74d93bd7a14136803a, type: 2}
+  neutralLines:
+  - {fileID: 11400000, guid: f76a52b0bbc333d488834cffc9a8fb26, type: 2}
+  introLines:
+  - {fileID: 11400000, guid: 2c3b085de3635324199be85929780045, type: 2}
+  winLines:
+  - {fileID: 11400000, guid: 5510eead4ad3ba446bb6efcee534851a, type: 2}
+  loseLines:
+  - {fileID: 11400000, guid: 672a95ecf0e709041a4ff81cd55ed0f9, type: 2}

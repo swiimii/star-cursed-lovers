@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: WizardLine 2
   m_EditorClassIdentifier: 
   text: You're a fine maiden I must say
-  color: {r: 0, g: 0, b: 0, a: 1}
+  color: {r: 0.24361731, g: 0.13040228, b: 0.6226415, a: 1}

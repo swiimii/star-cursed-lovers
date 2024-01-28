@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb9baa9de401fb4092a27382274220a, type: 3}
+  m_Name: DogDetails
+  m_EditorClassIdentifier: 
+  positiveTypes: 0000000001000000
+  negativeTypes: 0200000003000000
+  positiveLines:
+  - {fileID: 11400000, guid: d8f8303185b767543bc236fe09f66a7f, type: 2}
+  negativeLines:
+  - {fileID: 11400000, guid: 2aaf5eab6b77df84ba1b3be5c39f0cba, type: 2}
+  neutralLines:
+  - {fileID: 11400000, guid: 5dbf4259dfaa72245b9b52aa622ee4f8, type: 2}
+  introLines:
+  - {fileID: 11400000, guid: 023d7c626d52be143a5c63f54eb5751a, type: 2}
+  winLines:
+  - {fileID: 11400000, guid: c35c0de8aaa84d04da5dcf8fe061546b, type: 2}
+  loseLines:
+  - {fileID: 11400000, guid: b4b8ae440e044e04db6439eaad9de34f, type: 2}

@@ -19,12 +19,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 461a895d72a07944b89aa5a89f653a72, type: 2}
   - {fileID: 11400000, guid: 461a895d72a07944b89aa5a89f653a72, type: 2}
   negativeLines:
-  - {fileID: 11400000, guid: 29fc38355df57294d84797ef7d26c5c6, type: 2}
-  - {fileID: 11400000, guid: 29fc38355df57294d84797ef7d26c5c6, type: 2}
+  - {fileID: 11400000, guid: 6baad29edffde4d418ec37c92aae3bf7, type: 2}
   neutralLines:
-  - {fileID: 11400000, guid: 6baad29edffde4d418ec37c92aae3bf7, type: 2}
-  - {fileID: 11400000, guid: 6baad29edffde4d418ec37c92aae3bf7, type: 2}
-  - {fileID: 11400000, guid: 6baad29edffde4d418ec37c92aae3bf7, type: 2}
+  - {fileID: 11400000, guid: 29fc38355df57294d84797ef7d26c5c6, type: 2}
   introLines:
   - {fileID: 11400000, guid: 5ea3b6096e543404caf10bda79aef7c0, type: 2}
   winLines:

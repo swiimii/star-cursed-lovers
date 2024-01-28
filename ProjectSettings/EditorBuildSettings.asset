@@ -18,6 +18,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Dates/CatfishDate.unity
     guid: d5d17e0e7f6423b4786b94efedaf84f8
   - enabled: 1
+    path: Assets/Scenes/Dates/DaveDate.unity
+    guid: e50a931c35196554494651c96064971a
+  - enabled: 1
+    path: Assets/Scenes/Dates/DogDate.unity
+    guid: 991af5734d9a5a64bb413417e83a6109
+  - enabled: 1
+    path: Assets/Scenes/Dates/GroomDate.unity
+    guid: 9a307cc72b842954699489ed0f978ae1
+  - enabled: 1
+    path: Assets/Scenes/Dates/SpikeDate.unity
+    guid: 1d9491b7ecacf7143b967d4b5d8a0053
+  - enabled: 1
+    path: Assets/Scenes/Dates/ToadDate.unity
+    guid: 22cdb52f1f37e614e9342b1c6a2aa5f7
+  - enabled: 1
     path: Assets/Scenes/EndChoice.unity
     guid: 65a7120fee97d674d8ce72168d63c3f0
   m_configObjects: {}
