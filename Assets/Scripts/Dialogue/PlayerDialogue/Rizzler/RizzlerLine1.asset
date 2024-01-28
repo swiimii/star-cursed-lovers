@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: RizzlerLine1
   m_EditorClassIdentifier: 
-  text: I'm Rizzlin! 1
+  text: 'I wish I was a spider so I would have 8 legs to hold you with and 8 eyes
+    to see you with. '
   color: {r: 0.7132075, g: 0, b: 0, a: 1}

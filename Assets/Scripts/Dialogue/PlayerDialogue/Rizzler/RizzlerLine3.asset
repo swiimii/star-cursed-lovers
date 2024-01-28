@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: RizzlerLine3
   m_EditorClassIdentifier: 
-  text: We Rizzin All over the place! 3
+  text: 'You remind me of this old poster my dad had hanging in his basement office,
+    it had an old-timey movie star on it. They were super hot.  '
   color: {r: 0.7132075, g: 0, b: 0, a: 1}

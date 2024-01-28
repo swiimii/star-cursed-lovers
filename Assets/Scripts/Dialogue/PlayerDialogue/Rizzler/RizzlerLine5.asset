@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: RizzlerLine5
   m_EditorClassIdentifier: 
-  text: Captain Rizz is here to save the day 5
+  text: 'I don''t mind working if it means we have the money to travel the world
+    together and I get to go to amazing places with an amazing person like you.  '
   color: {r: 0.7132075, g: 0, b: 0, a: 1}

@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: WitchIntro
   m_EditorClassIdentifier: 
-  text: Hi! I'm a witch.
+  text: 'Ah yes, do come closer. It is not easy to hear well in these woods. If it
+    was, my witch cousin might not have been able to sneak up on me and curse me
+    with this wretched eczema! But I got her back. She has quite the elegant hunch
+    now, extreme scoliosis, a classic. '
   color: {r: 0.6377357, g: 0, b: 0.4821416, a: 1}

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
-  m_Name: ToadPositive
+  m_Name: SpikeNeg 4
   m_EditorClassIdentifier: 
-  text: Wow! Very nice!
-  color: {r: 0, g: 0.554717, b: 0.007288035, a: 1}
+  text: 'That would make me uncomfortable. '
+  color: {r: 0.6117647, g: 0, b: 0.87058824, a: 1}

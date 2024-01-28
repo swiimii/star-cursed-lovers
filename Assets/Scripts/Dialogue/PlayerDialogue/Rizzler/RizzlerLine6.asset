@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: RizzlerLine6
   m_EditorClassIdentifier: 
-  text: Papa 6
+  text: 'Why don''t we exchange account and routing numbers as a show of trust? Second
+    date we can swap social security numbers. '
   color: {r: 0.7132075, g: 0, b: 0, a: 1}

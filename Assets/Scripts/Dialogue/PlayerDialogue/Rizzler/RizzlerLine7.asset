@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec216d0a869c3149b2f54b3947f8053, type: 3}
   m_Name: RizzlerLine7
   m_EditorClassIdentifier: 
-  text: Sup Gamers 7
+  text: 'I bet I can guess what size clothes you wear, I have very good spatial awareness. '
   color: {r: 0.7132075, g: 0, b: 0, a: 1}
