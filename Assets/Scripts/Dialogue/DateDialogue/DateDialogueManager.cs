@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DateDialogueManager : MonoBehaviour
 {
-    private List<Line> positiveLines, negativeLines, neutralLines;
+    [SerializeField] private List<Line> positiveLines, negativeLines, neutralLines;
 
     public DateDetails dateDetails;
     public DialogueBox dialogueBox;
