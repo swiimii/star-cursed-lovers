@@ -140,6 +140,7 @@ public class DateDialogueManager : MonoBehaviour
             foreach (var line in dateDetails.loseLines)
             {
                 yield return DisplayMessageIE(line);
+                yield return WaitForAudioSource();
             }
             GameState.singleton.TransitionToLevelSelect();
         }

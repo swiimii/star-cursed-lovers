@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'I don''t know about that, I''ll sleep on it. '
   color: {r: 0.2679245, g: 0.2679245, b: 0.2679245, a: 1}
-  voice: {fileID: 8300000, guid: d28bd363455d327488d094f287c79903, type: 3}
+  voice: {fileID: 8300000, guid: 209a81d1652c1b94085417922aed0185, type: 3}
