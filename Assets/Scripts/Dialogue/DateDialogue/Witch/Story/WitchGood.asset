@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'You are enchanting, truly, my dear. You have left me spellbound. You have
     my love; may it be that I have yours as well. '
   color: {r: 0.6377357, g: 0, b: 0.4821416, a: 1}
+  voice: {fileID: 8300000, guid: a59c5a1678ee32648b3dc3342fdc0e07, type: 3}

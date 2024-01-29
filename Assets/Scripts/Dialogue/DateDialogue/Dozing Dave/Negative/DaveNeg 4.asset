@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'I think I''m going to grab a book to read instead of you. '
   color: {r: 0.2679245, g: 0.2679245, b: 0.2679245, a: 1}
+  voice: {fileID: 8300000, guid: b8fa840ee01e99b449749b5a07e4fdcc, type: 3}

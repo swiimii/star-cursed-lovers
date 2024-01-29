@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'Wow, I think this could be fate. '
   color: {r: 0.2679245, g: 0.2679245, b: 0.2679245, a: 1}
+  voice: {fileID: 8300000, guid: 93b3e654bc79c324ca3e13aad7e1769e, type: 3}

@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'You are what dreams are made of. '
   color: {r: 0.2679245, g: 0.2679245, b: 0.2679245, a: 1}
+  voice: {fileID: 8300000, guid: 90e292eeaf16edf4787e4d108450a33e, type: 3}

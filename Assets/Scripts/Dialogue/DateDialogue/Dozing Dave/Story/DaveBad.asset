@@ -15,3 +15,4 @@ MonoBehaviour:
   text: 'Honestly, I think the two of us together would be kind of nightmare, best
     to just go our separate ways. '
   color: {r: 0.2679245, g: 0.2679245, b: 0.2679245, a: 1}
+  voice: {fileID: 8300000, guid: 85693c87afa12594da9dbfd0835e35b4, type: 3}

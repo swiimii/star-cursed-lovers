@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'You make me laugh, and I don''t often do that asleep. Thanks. '
   color: {r: 0.2679245, g: 0.2679245, b: 0.2679245, a: 1}
+  voice: {fileID: 8300000, guid: c23da991aa42f814388b0c3a9dab272a, type: 3}

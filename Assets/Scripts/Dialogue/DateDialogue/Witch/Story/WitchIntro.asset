@@ -17,3 +17,4 @@ MonoBehaviour:
     with this wretched eczema! But I got her back. She has quite the elegant hunch
     now, extreme scoliosis, a classic. '
   color: {r: 0.6377357, g: 0, b: 0.4821416, a: 1}
+  voice: {fileID: 8300000, guid: 8f1d3e92e7a647844ad36188b7c990eb, type: 3}
