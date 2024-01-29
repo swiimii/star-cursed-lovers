@@ -624,8 +624,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   positive: {fileID: 21300000, guid: b9be3f6fc3d4abd4da9a37c310b19715, type: 3}
-  negative: {fileID: 21300000, guid: 909c9f1ffa773fc44bd2075091a736f7, type: 3}
-  neutral: {fileID: 21300000, guid: 5bf805ccca3d27547a9c2000454bb7a2, type: 3}
+  negative: {fileID: 21300000, guid: 5bf805ccca3d27547a9c2000454bb7a2, type: 3}
+  neutral: {fileID: 21300000, guid: 909c9f1ffa773fc44bd2075091a736f7, type: 3}
 --- !u!224 &1146511471 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2688096560514425824, guid: 73a3f9bc6cb5dea499c56b6cbba80e52, type: 3}
