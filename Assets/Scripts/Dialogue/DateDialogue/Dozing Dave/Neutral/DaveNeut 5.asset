@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "\u2026zzz\u2026square root of  27 is 3! Wait, where am I? "
   color: {r: 0.2679245, g: 0.2679245, b: 0.2679245, a: 1}
+  voice: {fileID: 8300000, guid: b5315f0bd32a301429969d2412718329, type: 3}

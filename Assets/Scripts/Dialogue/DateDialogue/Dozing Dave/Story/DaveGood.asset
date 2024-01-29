@@ -17,3 +17,4 @@ MonoBehaviour:
     I''ve only seen the first five minutes of a LOT of movies, I would like to see
     how they end with someone I love!  '
   color: {r: 0.2679245, g: 0.2679245, b: 0.2679245, a: 1}
+  voice: {fileID: 8300000, guid: d6c9bc75b4d544f4b8db31b25de7af05, type: 3}
