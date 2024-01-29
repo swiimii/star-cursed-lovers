@@ -79,6 +79,7 @@ public class DateDialogueManager : MonoBehaviour
 
         if(DateIsConcluding())
         {
+            yield return WaitForAudioSource();
             yield return DateConclusion();
         }
     }
@@ -128,8 +129,8 @@ public class DateDialogueManager : MonoBehaviour
             foreach( var line in dateDetails.winLines )
             {
                 yield return DisplayMessageIE(line);
+                yield return WaitForAudioSource();
             }
-            yield return new WaitForSeconds(4);
             GameState.singleton.daysWon.Add(GameState.singleton.daysPassed - 1);
             GameState.singleton.TransitionToLevelSelect();
         }
@@ -163,5 +164,14 @@ public class DateDialogueManager : MonoBehaviour
             responseList.RemoveAt(index);
         }
         return returnLine;
+    }
+
+    public IEnumerator WaitForAudioSource()
+    {
+        var src = GetComponent<AudioSource>();
+        while( src.isPlaying )
+        {
+            yield return null;
+        }
     }
 }
